@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/no_messages_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You don't have any messages right now"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/compose_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Compose Message"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:textColor="@android:color/white"
+        android:padding="12dp"/>
+</LinearLayout>
